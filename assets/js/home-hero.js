@@ -1,0 +1,1 @@
+(()=>{const a=[...document.querySelectorAll('.hero-switcher-item')];if(a.length<2)return;let i=0;setInterval(()=>{a[i].classList.remove('is-active');i=(i+1)%a.length;a[i].classList.add('is-active')},3500)})();
